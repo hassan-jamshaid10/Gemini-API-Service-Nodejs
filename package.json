@@ -1,0 +1,16 @@
+{
+  "name": "gemini-api-project",
+  "version": "1.0.0",
+  "description": "A project using Google Generative AI API",
+  "main": "GeminiAPI.js",
+  "type": "module",
+  "scripts": {
+    "start": "node GeminiAPI.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
