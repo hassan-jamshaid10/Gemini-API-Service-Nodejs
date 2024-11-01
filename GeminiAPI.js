@@ -11,7 +11,7 @@ const generateContent = async () => {
     model: "gemini-1.5-flash",
   });
 
-  const r = await model.generateContent("Top 10 programming languages");
+  const r = await model.generateContent("Give me react code");
   console.log(await r.response.text());
 };
 
